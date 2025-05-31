@@ -1,4 +1,24 @@
 /* General setup */
+@font-face {
+    font-family: 'montserrat_alternatesblack';
+    src: url('./fonts/montserratalternates-black-webfont.woff2') format('woff2'),
+         url('./fonts/montserratalternates-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'chunkfiveregular';
+    src: url('./fonts/chunkfive-regular-webfont.woff2') format('woff2'),
+         url('./fonts/chunkfive-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 html {
   font-size: 10px;
@@ -15,14 +35,19 @@ body {
 /* Typography */
 
 h1 {
+  font-family: 'chunkfiveregular', serif;
   font-size: 3.2rem;
+  letter-spacing: 0.3rem;
 }
 
 h2 {
+  font-family: 'chunkfiveregular', serif;
   font-size: 2.4rem;
+  letter-spacing: 0.3rem;
 }
 
 p {
+  font-family: 'montserrat_alternatesblack', serif;
   font-size: 1.4rem;
   line-height: 1.6;
   word-spacing: 0.6rem;
