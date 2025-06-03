@@ -1,0 +1,21 @@
+a {
+    display: flex;
+    padding: 10px 5px;
+    border: 5px solid grey;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+/* Add styles here */
+
+a[title="Visit example.com"] {
+    border-color: pink;
+}
+a[href*="contact"] {
+    border-color: orange;
+}
+a[href^="https"] {
+    border-color: green;
+}
