@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1</title>
+</head>
+
+<body>
+    <style>
+        
+        .list1 {
+            margin-right: 50px;
+            padding: 0%;
+        }
+        .list2 {
+            margin-right: 50px;
+            padding: 0%;
+        }
+        li {
+            list-style: none;
+            text-align: right;
+            
+        }
+       
+        </style>
+    <form action="http://httpbin.org/post">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <ul class="list1">
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="username">
+                </li>
+            </ul>
+            <ul class="list1">
+                <li>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="user-age">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Comment information</legend>
+            <ul class="list2">
+                <li>
+                    <label for="comment">Comment:</label>
+                    <input type="text" id="comment" name="comment-box">
+                </li>
+            </ul>
+            <ul class="list2">
+                <li>
+                    <label for="email-add">Email:</label>
+                    <input type="email" id="email-add" name="email-address">
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+</body>
+
+</html>
