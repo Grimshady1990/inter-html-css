@@ -16,6 +16,7 @@ ul {
 input {
     font-size: 2em;
     margin-bottom: 30px;
+    background-color: cornsilk;
     
 }
 label{
@@ -23,3 +24,10 @@ label{
     
 }
 
+button {
+    padding: 15px 50px;
+    border-radius: 10px;
+    background-color: beige;
+    color: black;
+    font-size: 1.5em;
+}
