@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-3</title>
+</head>
+<body>
+    <form action="http://httpbin.org/post" method="post">
+        <ul>
+            <li>
+                <label for="food">Enter your favorite food:</label>
+                <input type="text" id="food" name="food" list="my-suggestions">
+                <datalist id="my-suggestions">
+                    <option>Apple</option>
+                    <option>Banana</option>
+                    <option>Blackberry</option>
+                    <option>Blueberry</option>
+                    <option>Lemon</option>
+                    <option>Lychee</option>
+                    <option>Peach</option>
+                    <option>Pear</option>
+
+                </datalist>
+            </li>
+            <li>
+                <button type="submit">Submit choice</button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
