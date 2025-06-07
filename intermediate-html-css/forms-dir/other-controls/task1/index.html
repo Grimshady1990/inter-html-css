@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1</title>
+</head>
+<body>
+    <style>
+        li {
+            list-style: none;
+        }
+    </style>
+    <form action="https://httpbin.org/post" method="post">
+        <h2>Enter your comment</h2>
+        <ul>
+            <li>
+                <label for="name">Name:</label> <br>
+                <input type="text" id="name" name="name">
+            </li>
+            <li>
+                <label for="comment">Comment:</label> <br>
+                <textarea rows="10" cols="35" maxlength="100" name="textbox" id="comment"></textarea>
+            </li>
+            <li>
+                <button type="submit">Submit comment</button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
