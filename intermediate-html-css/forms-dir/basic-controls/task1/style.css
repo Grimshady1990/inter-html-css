@@ -1,0 +1,25 @@
+body {
+    background-color: bisque;
+    
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+ul {
+    list-style: none;
+    text-align: right;
+    
+}
+input {
+    font-size: 2em;
+    margin-bottom: 30px;
+    
+}
+label{
+    font-size: 2em;
+    
+}
+
