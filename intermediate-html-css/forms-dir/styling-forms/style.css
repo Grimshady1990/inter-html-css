@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "handwriting";
+    src:
+        url("fonts/JOURNAL.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: "typewriter";
+    src:
+        url("fonts/Momt.woff") format("woff"),
+        url("fonts/Momt.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font
+}
